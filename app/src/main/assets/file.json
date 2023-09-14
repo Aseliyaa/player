@@ -1,0 +1,46 @@
+[
+    {
+        "video_id": "1526909",
+        "text_btn1": "video1_l",
+        "text_btn2": "video1_r",
+        "start_time": 2000,
+        "end_time": 5000,
+        "button1_interval_start": 4000,
+        "button1_interval_end": 7000,
+        "button2_interval_start": 8000,
+        "button2_interval_end": 10000
+    },
+    {
+        "video_id": "5386411",
+        "text_btn1": "video2_l",
+        "text_btn2": "video2_r",
+        "start_time": 4000,
+        "end_time": 7000,
+        "button1_interval_start": 4000,
+        "button1_interval_end": 7000,
+        "button2_interval_start": 8000,
+        "button2_interval_end": 10000
+    },
+    {
+        "video_id": "1409899",
+        "text_btn1": "video_l",
+        "text_btn2": "video_r",
+        "start_time": 4000,
+        "end_time": 7000,
+        "button1_interval_start": 4000,
+        "button1_interval_end": 7000,
+        "button2_interval_start": 8000,
+        "button2_interval_end": 10000
+    },
+    {
+        "video_id": "5329239",
+        "text_btn1": "video1_l",
+        "text_btn2": "video1_r",
+        "start_time": 2000,
+        "end_time": 5000,
+        "button1_interval_start": 15000,
+        "button1_interval_end": 20000,
+        "button2_interval_start": 30000,
+        "button2_interval_end": 40000
+    }
+]

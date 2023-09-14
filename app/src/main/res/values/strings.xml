@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Pexels Videos</string>
+    <string name="video">#video</string>
+    <string name="podcast">#podcast</string>
+    <string name="news">#news</string>
+    <string name="legend">#legend</string>
+    <string name="tags">#scentist/#biology</string>
+    <string name="title"><u>Unraveling the Mysteries of Biology</u></string>
+    <string name="description"> Delve into the intricate web of life as you uncover the secrets of cells, genetics…</string>
+    <string name="created_at">June 30, 2023 | #legend</string>
+    <string name="data">June 30, 2023</string>
+    <string name="u_string_title_u">Unraveling the Mysteries of Biology</string>
+</resources>

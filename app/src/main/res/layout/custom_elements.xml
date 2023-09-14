@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/prevBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:background="@drawable/yell_rect"
+        android:paddingLeft="23dp"
+        android:paddingTop="3dp"
+        android:paddingRight="23dp"
+        android:paddingBottom="3dp"
+        android:text="Choice1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.531"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/nextBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="70dp"
+        android:background="@drawable/yell_rect"
+        android:paddingLeft="23dp"
+        android:paddingTop="3dp"
+        android:paddingRight="23dp"
+        android:paddingBottom="3dp"
+        android:text="Choice2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.531"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:progress="0"
+        android:max="100"
+        android:background="@drawable/progress_bar_background"
+        android:progressDrawable="@drawable/pb_drawable"
+        app:layout_constraintBottom_toTopOf="@+id/prevBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    <ProgressBar-->
+<!--        android:id="@+id/progressBar"-->
+<!--        style="?android:attr/progressBarStyleHorizontal"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:background="@drawable/progress_bar_background"-->
+<!--        android:indeterminate="false"-->
+<!--        android:indeterminateDrawable="@drawable/pb_drawable"-->
+<!--        android:indeterminateDuration="8000"-->
+<!--        android:progressDrawable="@drawable/curved_progress_bar"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/prevBtn"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
